@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-
+// new Commit done on git
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       home: UserLogin(),
     );
   }
+
 }
 class UserLogin extends StatefulWidget {
   @override
@@ -78,7 +79,7 @@ class _UserLoginState extends State<UserLogin> {
                     autofocus: false,
                     obscureText: true,
                     keyboardType: TextInputType.text,
-                    
+
                     decoration: InputDecoration(
                         labelText: "Password",
                         hintText: "Password",
